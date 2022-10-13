@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.root{
+    /* height: 100vh; */
+
+}
+
+.head{
+    position: fixed;
+    top: 0px;
+    background-image: linear-gradient(rgb(30, 29, 71),rgb(17, 16, 16));
+    width: 100vw;
+    height: 7vh;
+    opacity: 0.9;
+    box-shadow: 0px 0px 10px rgb(185, 174, 174);
+}
+.head li{
+    display: inline;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+
+
+}
+.head li a {
+
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+   
+
+
+}
+.head li a:hover{
+    
+    background-color: rgb(255, 255, 255);
+    color: crimson;
+    border-radius: 10px;
+  
+
+
+}
+
+.div1{
+    
+    background-image: url("p1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.div2{
+    display: flex;
+    background-image: url("p2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+.div3{
+    display: flex;
+    background-image: url("p3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.div4{
+    display: flex;
+    background-image: url("p4.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.home{
+   
+    font-size: 50px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+
+}
+.about{
+  
+    font-size: 50px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+
+}
+.contact{
+   
+    font-size: 50px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+
+}
+.services{
+   
+    font-size: 50px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+
+}
+.blog1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    height: 20vh;
+    font-size: 50px;
+}
+.foot{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
